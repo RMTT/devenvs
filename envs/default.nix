@@ -1,3 +1,3 @@
 { pkgs, ... }: {
-  embedded = pkgs.callPackage ./embedded.nix { };
+  zephyr = pkgs.callPackage ./zephyr.nix { };
 }
