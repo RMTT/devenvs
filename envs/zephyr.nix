@@ -7,7 +7,7 @@
 , openocd
 , zephyr
 }: mkShell {
-  name = "embedded";
+  name = "zephyr";
   packages = [
     openocd
     nrf-command-line-tools
